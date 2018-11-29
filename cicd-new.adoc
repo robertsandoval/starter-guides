@@ -114,12 +114,15 @@ configuration so that we can trigger it using this Jenkins pipeline.
 
 *Step 4:* Create an application
 
-- Click on `Add to Project` on the project and select `PHP` latest image.
-We will use `myphp` as the application name. *Note* same name will be
-used for buildConfig and deployConfig by default.
+- Click on `Add to Project` on top right corner and select `Browse Catalog`
+- Enter `PHP` in the search
+- Click PHP --> `Next`
+- Enter `myphp` as Application Name.
+- Enter `https://github.com/piggyvenus/simplephp.git` as Git Repository.
+(Use your own github url if you want to test by pushing changes to code.)
 
-- Use your own github url if you want to test by pushing changes to code.
-Otherwise you can use https://github.com/piggyvenus/simplephp.git.
+*Note* When using `myphp` as the application name, same name will be
+used for buildConfig and deployConfig by default.
 
 - Now click on the link `advanced options`. It will open up a bunch of
 options and we will edit those. Under the section `Build Configuration`,
