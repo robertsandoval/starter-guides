@@ -257,6 +257,8 @@ modules:
       INFRA_PROJECT:
       USER_NAME:
       USER_PASSWORD:
+  cicd-new:
+    name: This is a test cicd module
 #  quotas:
 #    name: Limiting application resource usage
 #  run-as-non-root:
